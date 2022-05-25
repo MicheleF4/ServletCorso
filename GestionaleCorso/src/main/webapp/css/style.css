@@ -1,0 +1,162 @@
+@charset "ISO-8859-1";
+
+body {
+	width: 100vw;
+	background-color: #5555ff; box-sizing : border-box;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+h1 {
+	color: white;
+}
+
+h2 {
+	color: white;
+}
+
+.h2__error {
+	color: black;
+}
+
+li {
+	color:white;
+	
+}
+
+a {
+	text-decoration: none;
+	font-size: 18px;
+}
+
+a:link {
+	color: white;
+	
+}
+
+a:visited {
+	color: #dbdbdb;
+}
+
+.container {
+	margin-top: 120px;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.container__home {
+	margin-top: 150px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.container__table {
+	border: 1px solid blue;
+	border-radius: 5px;
+	padding: 20px;
+	background-color: white;
+}
+
+table, th, td {
+	border: 1px solid blue;
+}
+
+th, td {
+	padding: 10px;
+}
+
+.button {
+	padding: 6px;
+	background-color: #5555ff;
+	border-radius: 3px;
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	transition: 0.5s;
+	
+}
+
+.button:hover {
+	
+	background-color: #a880fd;
+}
+
+/************FORM***************/
+
+.container__form {
+	margin-top: 120px;
+	padding: 30px;
+	background-color: white;
+	border-radius: 5px;
+	
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.form__table {
+	border: none;
+}
+
+.form__table td {
+	border:none;
+	font-weight: bold;
+	color: #5555ff;
+	
+}
+
+
+.h2__form {
+	color: #5555ff;
+}
+
+label {
+	color: #5555ff;
+	font-weight: bold;
+	margin-right: 10px;
+}
+
+input {
+	border: 1px solid #5555ff;
+	outline-color: #f49efe;
+	border-radius: 3px;
+	padding: 10px;
+	transition: 2s;
+	
+}
+
+input:focus {
+	outline-color: #004bd7;
+}
+
+.form-group {
+	border: none;
+	margin: 10px;
+	
+}
+
+.button__form {
+	padding: 10px 20px;
+	margin: 10px;
+	background-color: #5555ff;
+	border: none;
+	border-radius: 5px;
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	transition: 0.5s;
+}
+
+.button__form:hover {
+	
+	background-color: #a880fd;
+}
